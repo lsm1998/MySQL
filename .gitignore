@@ -1,0 +1,19 @@
+# Project exclude paths
+/cmake-build-mysqlld/
+
+.idea
+
+cmake-build-debug
+
+# boots体积太大了，忽略掉
+/boost
+
+# 编译产生的build目录忽略
+/build
+
+# extra外部依赖，体积比较大
+/extra
+
+/mysql-test
+
+/storage
