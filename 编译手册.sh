@@ -30,4 +30,4 @@ make -j 12
 -DWITH_BOOST=/Users/liushiming/CLionProjects/mysql-8.0.15/boost/boost_1_68_0
 
 # 6.启动参数
- --socket=/Users/liushiming/opt/mysql/data/mysql.sock
+ --basedir=/Users/liushiming/opt/mysql --datadir=/Users/liushiming/opt/mysql/data --plugin-dir=/Users/liushiming/opt/mysql/lib/plugin --log-error=/Users/liushiming/opt/mysql/data/liushimingMacBook-Pro.local.err --pid-file=/Users/liushiming/opt/mysql/data/liushimingMacBook-Pro.local.pid --socket=/Users/liushiming/opt/mysql/data/mysql.sock
