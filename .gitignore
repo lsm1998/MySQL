@@ -14,6 +14,5 @@ cmake-build-debug
 # extra外部依赖，体积比较大
 /extra
 
+# 测试工具箱，体积比较大
 /mysql-test
-
-/storage
