@@ -1,0 +1,14 @@
+优秀博客：
+https://blog.csdn.net/zxz1580977728/article/details/109382948?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
+https://blog.csdn.net/v123411739/article/details/108379583
+
+服务端入口： /sql/mysqld.cc 约5758行int mysqld_main(int argc, char **argv)函数
+
+sql/conn_handler/connection_acceptor.h 文件void connection_event_loop()方法监听连接
+
+sql/conn_handler/socket_connection.cc 文件listen_for_connection_event()方法创建连接，IO模型为poll或者select
+
+
+sql/connection_handler_per_thread.cc
+
+sql/sql_parse.cc bool do_command(THD *thd)负责处理客户端发送过来的sql

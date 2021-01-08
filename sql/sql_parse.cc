@@ -1149,6 +1149,11 @@ void cleanup_items(Item *item) {
     1  request of thread shutdown (see dispatch_command() description)
 */
 
+/**
+ * 处理客户端发送过来的sql
+ * @param thd
+ * @return
+ */
 bool do_command(THD *thd) {
   bool return_value;
   int rc;

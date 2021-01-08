@@ -301,6 +301,7 @@ static void *handle_connection(void *arg) {
     if (thd_prepare_connection(thd))
       handler_manager->inc_aborted_connects();
     else {
+      // thd_connection_alive(thd)监听客户端请求
       while (thd_connection_alive(thd)) {
         if (do_command(thd)) break;
       }

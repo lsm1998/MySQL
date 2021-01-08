@@ -5754,6 +5754,7 @@ static void set_super_read_only_post_init() {
 #ifdef _WIN32
 int win_main(int argc, char **argv)
 #else
+// 服务端入口函数
 int mysqld_main(int argc, char **argv)
 #endif
 {

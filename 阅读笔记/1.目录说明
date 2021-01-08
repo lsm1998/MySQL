@@ -1,0 +1,31 @@
+boost：boost库
+build：自己创建的编译目录
+cmake：编译相关
+client：客户端工具，内含mysql,mysqladmin,mysqlshow等常用命令和客户端工具的源代码。
+storage：存储引擎目录，各类存储引擎代码都在这个目录中。
+mysys：mysys代表 MySQL system library，是 MySQL的库函数文件。
+sql： mysql主要代码，将会生成 mysqld文件。
+vio ：  Virtual I/O系统 ,是对 network io的封装，主要用来处理各种网络协议的IO。
+strings： string库，各种字符串处理操作函数。
+include：包含的头文件
+packaging：打包工具包。
+support-files： my.cnf示例配置文件，安装完MySQL后，一般MySQL的启动文件也会放到该目录下。
+plugin： mysql以插件形式实现的部分工程。
+tests：测试文件所在目录，包含测试文件和测试目录。
+libmysql：库文件，将生产libmysqlclient.so。
+README：说明文档。
+unittest：单元测试。
+regex：正则表达式工具  。
+VERSION：版本信息 。
+dbug：提供一些调试用的宏定义。
+libservices：5.5.x中新加的目录，实现了打印功能。
+scripts：提供脚本工具，如 mysql_install_db等。
+Docs：文档库。
+extra：提供 innochecksum,resolveip等额外的小工具。
+sql-bench：一些测评代码。
+win：给 windows平台提供的编译环境。
+cmd-line-utils： readline,libedit工具。
+man：手册页。
+sql-common：存放部分服务器端和客户端都会用到的代码。
+zlib： zip库工具。
+mysql-test： mysqld的测试工具箱。
